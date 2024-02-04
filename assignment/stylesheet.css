@@ -1,22 +1,25 @@
 body {
-    background-color: #40b23e;
-    border-image: url("https://static.miraheze.org/loathsomecharacterswiki/thumb/f/f6/C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png/300px-C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png") 1000 fill / 50px / 1px space;
-
+    background-color: #9a7685;
 }
 
 header {
-    background-color: #76d564;
+    background-color: #ddd1d6;
     width: 75%;
-    margin: 75px auto 30px auto;
+    margin: 100px auto 30px auto;
     padding-bottom: 5px;
-    color: #332237;
+    color: #1e1a56;
     text-align: center;
-/* horrifying border situation brought to you by https://developer.mozilla.org/en-US/docs/Web/CSS/border-image */
-    border-image: url("https://static.wikia.nocookie.net/spongebob/images/1/17/Patrick_Star_Show_Patrick.png/revision/latest/scale-to-width/360?cb=20220724110959") 1500 fill / 150px / 35px space;
+/* this border situation brought to you by https://developer.mozilla.org/en-US/docs/Web/CSS/border-image and https://www.w3schools.com/cssref/css3_pr_border-image.php*/
+    border-image: url("https://cdn.pixabay.com/photo/2016/11/14/14/13/vintage-1823626_1280.png");
+    border-image-repeat: repeat;
+    border-image-width: 40px;
+    border-image-slice: 100%;
+    border-image-outset: 20px;
+    border-radius: 30%;
 }
 
 header h1 {
-    line-height: 65px;
+    line-height: 50px;
 }
 
 header p {
@@ -24,47 +27,63 @@ header p {
 }
 
 header a:link {
-    color: #332237;
+    color: #010001;
 }
-
+ 
 header a:visited {
-    color: #513369;
+    color: #ab3467;
 }
 
 header a:hover {
-    color:#513369;
+    color:#ab3467;
 }
 
 .info {
     width: 75%;
     margin: auto;
-    color:#b870ac;
+    color:#dcd6e1;
     text-align: center;
     border-style:groove;
-    border-color: #76d564;
+    border-color: #1a4c56;
     border-radius: 5%;
-    background-color: #d7d3e1;
+    background-color: #a3b7bb;
 }
 
 .info img {
     border-style: outset;
     border-radius: 15%;
     border-color: #b870ac;
+    animation: flip-with-scale 3s infinite;
+}
+
+/* image flip brought to you by https://pqina.nl/blog/flipping-images-with-css-and-javascript/ */
+
+@keyframes flip-with-scale {
+    0% {
+        transform: perspective(400px) scaleX(1);
+    }
+
+    100% {
+        transform: perspective(400px) scaleX(-1);
+    }
 }
 
 .info h2 {
-    margin: 20px 200px;
-    background-color: #dedadd;
-    border-style:double ;
-    border-radius: 50%;
-    text-shadow: 0 0 2px #ee9cdd;
+    margin: 20px 300px;
+    background-color: #0d262b;
+    border-style: double;
+    border-color: #9a7685;
+    border-radius: 5%;
+    line-height: 35px;
 }
 
 .info h3 {
     margin: 20px 200px;
-    background-color: #dedadd;
-    border-style:dotted;
+    background-color: #0d262b;
+    border-style: dotted;
     border-width: 2px;
-    border-radius: 50%;
+    border-color: #9a7685;
+    border-radius: 5%;
+    line-height: 25px;
     text-decoration: line-through;
 }
