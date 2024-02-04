@@ -1,0 +1,70 @@
+body {
+    background-color: #40b23e;
+    border-image: url("https://static.miraheze.org/loathsomecharacterswiki/thumb/f/f6/C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png/300px-C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png") 1000 fill / 50px / 1px space;
+
+}
+
+header {
+    background-color: #76d564;
+    width: 75%;
+    margin: 75px auto 30px auto;
+    padding-bottom: 5px;
+    color: #332237;
+    text-align: center;
+/* horrifying border situation brought to you by https://developer.mozilla.org/en-US/docs/Web/CSS/border-image */
+    border-image: url("https://static.wikia.nocookie.net/spongebob/images/1/17/Patrick_Star_Show_Patrick.png/revision/latest/scale-to-width/360?cb=20220724110959") 1500 fill / 150px / 35px space;
+}
+
+header h1 {
+    line-height: 65px;
+}
+
+header p {
+    line-height: 10px;
+}
+
+header a:link {
+    color: #332237;
+}
+
+header a:visited {
+    color: #513369;
+}
+
+header a:hover {
+    color:#513369;
+}
+
+.info {
+    width: 75%;
+    margin: auto;
+    color:#b870ac;
+    text-align: center;
+    border-style:groove;
+    border-color: #76d564;
+    border-radius: 5%;
+    background-color: #d7d3e1;
+}
+
+.info img {
+    border-style: outset;
+    border-radius: 15%;
+    border-color: #b870ac;
+}
+
+.info h2 {
+    margin: 20px 200px;
+    background-color: #dedadd;
+    border-style:double ;
+    border-radius: 50%;
+    text-shadow: 0 0 2px #ee9cdd;
+}
+
+.info h3 {
+    margin: 20px 200px;
+    background-color: #dedadd;
+    border-style:dotted;
+    border-width: 2px;
+    border-radius: 50%;
+    text-decoration: line-through;
+}
