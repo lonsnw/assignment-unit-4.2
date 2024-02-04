@@ -41,7 +41,6 @@ header a:hover {
 .info {
     width: 75%;
     margin: auto;
-    color:#dcd6e1;
     text-align: center;
     border-style:groove;
     border-color: #1a4c56;
@@ -71,6 +70,7 @@ header a:hover {
 .info h2 {
     margin: 20px 300px;
     background-color: #0d262b;
+    color:#dcd6e1;
     border-style: double;
     border-color: #9a7685;
     border-radius: 5%;
@@ -79,11 +79,17 @@ header a:hover {
 
 .info h3 {
     margin: 20px 200px;
-    background-color: #0d262b;
+    background-color: #3d5155;
+    color:#dcd6e1;
     border-style: dotted;
     border-width: 2px;
     border-color: #9a7685;
     border-radius: 5%;
     line-height: 25px;
     text-decoration: line-through;
+}
+
+.info p {
+    color:#3d5155;
+    text-shadow: .5px .5px #1a4c56;
 }
