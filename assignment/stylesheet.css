@@ -1,7 +1,6 @@
 body {
     background-color: #40b23e;
-    border-image: url("https://static.miraheze.org/loathsomecharacterswiki/thumb/f/f6/C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png/300px-C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png") 1000 fill / 50px / 1px space;
-
+    border-image: url("https://static.miraheze.org/loathsomecharacterswiki/thumb/f/f6/C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png/300px-C--Users-cleme-Downloads-527-5274029_patrick-star-clipart-patrick-star-drooling-png-download.png") 1000 fill / 100px ;
 }
 
 header {
